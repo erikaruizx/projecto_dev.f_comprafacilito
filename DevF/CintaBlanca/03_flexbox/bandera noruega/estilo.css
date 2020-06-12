@@ -1,0 +1,75 @@
+*{
+    background-color: white;
+}
+
+body{
+    height: 900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fondoazul{
+    width: 900px;
+    height: 400px;
+    border: solid 1px black;
+    background-color: rgb(5, 5, 80);
+    /* decimos que usaremos flexbox */
+    display: flex;
+    /* mueve mis elementos horizontalmente */
+    /*justify-content: space-around;
+    /* mueve mis elementos verticalmente */
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fondoblanco{
+    width: 170px;
+    height: 170px;
+    border: solid 1px black;
+    /* decimos que usaremos flexbox */
+    display: flex;
+    /* mueve mis elementos horizontalmente */
+    justify-content: flex-start;
+    
+}
+
+.fondorojo{
+    width: 120px;
+    height: 120px;
+    border: solid 1px black;
+    background-color: red;
+    /* decimos que usaremos flexbox */
+    display: flex;
+    /* mueve mis elementos horizontalmente */
+    justify-content: flex-start;
+}
+
+
+
+
+
+.fondoblanco1{
+    width: 170px;
+    height: 170px;
+    border: solid 1px black;
+    /* decimos que usaremos flexbox */
+    display: flex;
+    /* mueve mis elementos horizontalmente */
+    align-items: end;
+    flex-direction: column;
+    
+    
+}
+
+.fondorojo1{
+    width: 120px;
+    height: 120px;
+    border: solid 1px black;
+    background-color: red;
+    /* decimos que usaremos flexbox */
+    display: flex;
+    /* mueve mis elementos horizontalmente */
+    align-items: flex-end;
+    flex-direction: column;
+}

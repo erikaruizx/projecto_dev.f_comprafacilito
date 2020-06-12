@@ -1,0 +1,20 @@
+.container{
+    border: rgb(0, 0, 0) 4px solid;
+    height: 800px;
+}
+
+.my-row{
+    border: rgb(12, 17, 49) 3px solid;
+    height: 350px;
+}
+
+.row{
+    border: rgb(250, 13, 5) 3px solid;
+    height: 400px;
+}
+
+.a
+{
+    border: rgb(3, 192, 104) 3px solid;
+    height: 100px;
+}

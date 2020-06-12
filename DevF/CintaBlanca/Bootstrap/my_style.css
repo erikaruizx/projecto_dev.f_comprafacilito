@@ -1,0 +1,152 @@
+*{
+    background-color: rgb(0, 0, 0);
+}
+.font-family: 'Architects Daughter', cursive;
+
+
+.modal{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    animation: modal 2s 5s forwards;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.contenido{
+
+    margin: auto;
+    width: 40%;
+    height: 40%;
+    background: darkblue;
+    border-radius: 20px;
+}
+
+#cerrar {
+    display: none;
+
+}
+
+#cerrar + label {
+    position: fixed;
+    color: #ffcc02;
+    font-size: small;
+    z-index: 50;
+    background: darkred;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    right: 10px;
+    cursor: pointer;
+
+    animation: modal 2s 3s forwards;
+    visibility: hidden;
+    opacity: 0;
+
+
+}
+
+#cerrar:checked + label, #cerrar:checked ~ .modal {
+    display: none;
+
+}
+
+@keyframes modal{
+    100%{
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+
+
+.icon{
+    width: 20px;
+}
+
+.a{
+    color: crimson;
+}
+
+.nav{
+    background-color: rgba(0, 0, 0, 0.214);
+}
+
+
+
+.class{
+    background-color: black;
+
+}
+
+
+.p {
+    border: 2px #ffcc02 solid ;
+    /* width: 150px;
+    height: 150px; */
+    display: inline-block;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.h5{
+    color: rgb(204, 8, 8);
+}
+.card-group{
+    border-color: black;
+}
+.card{
+    border: black;
+}
+
+.card_text{
+    color: white;
+}
+
+
+.card-title{
+    color: floralwhite;
+}
+
+.card-text{
+
+    color: yellow;
+}
+
+.carousel-inner{
+    width: 1200px;
+    height:  600px;
+    align-items: center;
+}
+
+.form-group{
+    color: whitesmoke;
+    align-items: flex-start
+}
+
+.container{
+align-content: center;
+flex-direction: column;
+
+}
+
+
+.footer {
+  background-color: black;
+  font-size: small;
+
+}
+  
+
+.ul
+{
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}

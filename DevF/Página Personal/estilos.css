@@ -1,0 +1,33 @@
+* {
+    background-color: rgba(77, 102, 164, 0.954);
+}
+
+h1{
+    text-align: center;
+    color: orangered;
+}
+
+img {
+    width: 150px;
+    align-content: center;
+}
+.Presentación {
+    font-size: 25px;
+    text-align: left;
+}
+
+.textodeestilo {
+    font-family: sans-serif;
+    font-size: 34px;
+    font-weight: 60;
+    text-align: left;
+}
+
+.lista{
+    text-align:left;
+
+}
+.contenedor{
+    border: tomato;
+    height: 70px;
+}
