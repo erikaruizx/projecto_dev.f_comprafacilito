@@ -1,0 +1,18 @@
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:90px;
+	right:40px;
+	background-color:#18ca59;
+	color:#FFF;
+	border-radius:90px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px rgb(153, 33, 33);
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
